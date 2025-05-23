@@ -1,7 +1,6 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from pysentimiento import create_analyzer
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, GenerationConfig
-from check_polarity import polarity
 from elasticsearch import Elasticsearch
 from sentence_transformers import SentenceTransformer
 from huggingface_hub import login
