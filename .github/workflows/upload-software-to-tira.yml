@@ -30,4 +30,4 @@ jobs:
         run: |
           tira-cli login --token ${{ secrets.TIRA_CLIENT_TOKEN }}
           tira-cli verify-installation
-          tira-cli code-submission --path ${{ inputs.directory }} --task retrieval-augmented-debating-2025 --dataset retrieval-augmented-debating-2025/rad25-2025-01-16-toy-20250116-training
+          tira-cli code-submission --path ${{ inputs.directory }} --task retrieval-augmented-debating-2025 --dataset rad25-2025-01-16-toy-20250116-training
